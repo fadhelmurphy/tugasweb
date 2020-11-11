@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat",'Segoe UI', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #354f52;
+}
+a {
+  color: #354f52;
+}
+p{
+  line-height: 2rem;
+  color: #888;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+li {
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 26px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #7bc678;
+  color: white;
+  box-shadow: 0 .5rem 1rem #7bc67875!important;
+}
+section {
+  padding: 8em 0em;
+  width: 100%;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+header{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 2;
+}
+
+.button-link{
+  padding: 4% 6%;
+  background-color: #7bc678;
+  color: white;
+  border: 2px solid #7bc678;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  align-self: center;
+  box-shadow: 0 .5rem 1rem #7bc67875;
+}
+
+.container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.baris {    
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kolom {
+  display: flex;
+  flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 2px;
+    padding: 0 15px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.w-100 {
+    width: 100%!important;
+}
+.variasi {
+  position: absolute;
+  left: -7%;
+  font-size: 170px;
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px #354f52;
+}
+.beranda h1 {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px #354f52;
+}
+.lokasi h1 {
+  margin: 0;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px #354f52;
+}
+.font-gede {
+  font-size: 5.8vw;
+}
+.product h1,
+.product {
+  text-align: center;
+  margin: 0;
+}
+.pro-body{
+  color: #354f52;
+  padding: 4% 6%;    
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.pro-body h2{
+  font-size: 2em;
+}
+.pro-footer{
+  padding: 6%;
+}
+.pro-body p {
+  color: #aaa;
+}
+.kontak h1 {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px #354f52;
+}
+.kontak h1 span {
+  -webkit-text-fill-color: #354f52;
+  -webkit-text-stroke: 2px white;
+}
+
+.loading-page {
+  background-color: white;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 100vh;
+}
+
+.loading-page h1 {
+  position: fixed;
+  text-align: center;
+  color: #7bc678;
+  font-size: 160px;
+  font-weight: bold;
+  width: 100%;
+  line-height: 4em;
+}
+.biaya{
+  color: #7bc678;
+}
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 0.5em;
+  }
+  .baris{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  nav{
+    justify-content: center;
+  }
+  li{
+    margin-right: 1em;
+  }
+  li a{
+    padding: 7px 13px;
+  }
+}
